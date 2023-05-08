@@ -17,8 +17,6 @@ Here we also provide some recommendations both from the marketing and non-market
 1. How to improve service in line with the increasing number of transactions?
 1. Is there any other potential that can be used as product diversification?
 
-*Note: The analysis we conducted is only surface-level and needs to be examined further*
-
 We use **Brazilian E-Commerce Public Dataset**
 - Source : [kaggle.com](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv)
 - Authors : Olist and André Sionek
