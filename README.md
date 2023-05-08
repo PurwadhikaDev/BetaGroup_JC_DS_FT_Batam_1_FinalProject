@@ -6,7 +6,7 @@ Nathania Frieska Zamris (JCDS 0106 002)<br>
 Mary Amalia Wauran (JCDS 0106 006)<br>
 Idam Ahmadi (JCDS 0106 007)<br>
 
-We are predicting the Total Item Value (TIV) that will occur in the next **4 months** (end of 2018) based on the company's historical data from 2016-2018.
+We predict the Total Item Value (TIV) that will occur in the next **4 months** (end of 2018) based on the company's historical data from 2016-2018.
 The purpose of making the prediction is to give the marketing team an idea of how much TIV can be achieved by the end of the year and help them determine the **budget** needed to reach that TIV.
 
 Here we also provide some recommendations both from the marketing and non-marketing perspective, based on the data insights we have found, including :
