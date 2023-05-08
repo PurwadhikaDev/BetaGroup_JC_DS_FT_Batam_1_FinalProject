@@ -26,7 +26,7 @@ We use **Brazilian E-Commerce Public Dataset**
 
 **Olist E-Commerce** is a Brazilian online marketplace that connects merchants (small and medium-sized businesses) with customers throughout Brazil. Merchants can use Olist to sell their products online and access a wider market share, logistics services, and payment processing solutions.
 
-We will build a model that will help the company provide a purchase prediction tool, which will be useful for determining the marketing budget. Forecasting for the next 4 months will be done by trying modeling using Fbprophet, ARIMA, and Elastic Net. The metric used is MAPE, and the comparison of the graphs between the models will be used for evaluation.
+We build a model that will help the company provide a purchase prediction tool, which will be useful for determining the marketing budget. Forecasting for the next 4 months will be done by trying modeling using Fbprophet, ARIMA, and Elastic Net. The metric used is MAPE, and the comparison of the graphs between the models will be used for evaluation.
 
 We decided to use MAPE as the evaluation metric for several reasons :
 - Our graph has significantly different trends, so using nominal error evaluation of 10000 in 2017 might be large but small in 2018, whereas with MAPE such perception differences can be avoided.
