@@ -6,27 +6,28 @@ Nathania Frieska Zamris (JCDS 0106 002)<br>
 Mary Amalia Wauran (JCDS 0106 006)<br>
 Idam Ahmadi (JCDS 0106 007)<br>
 
-Kami melakukan prediksi jumlah pembelian pada 4 bulan ke depan (akhir tahun 2018) berdasarkan data historis perusahaan tahun 2016-2018.
-Prediksi dilakukan agar tim marketing mendapatkan gambaran berapa TIV yang bisa didapatkan sampai akhir tahun dan diharapkan membantu tim marketing menentukan **budget** yang diperlukan untuk mencapai TIV tersebut.
+We are predicting the Total Item Value (TIV) that will occur in the next **4 months** (end of 2018) based on the company's historical data from 2016-2018.
+The purpose of making the prediction is to give the marketing team an idea of how much TIV can be achieved by the end of the year and help them determine the **budget** needed to reach that TIV.
 
-Disini kami juga memberi beberapa rekomendasi baik dari sisi marketing maupun bukan, berdasarkan insight data yang kami temukan, diantaranya:
+Here we also provide some recommendations both from the marketing and non-marketing perspective, based on the data insights we have found, including :
 
-1. Berapa Average Basket Size dan bagaimana kita bisa meningkatkannya?
-2. Performa kota terbaik, berapa user terakuisisi, kota mana yang mempunyai potensi growth.
-3. Kategori apa yang paling laku, potensi dan kendala apa yang mungkin dialami kategori tersebut.
-4. Berapa jumlah transaksi kita, bagaimana caranya menjaga pengelamanan berbelanja tetap baik?
-5. Adakah potensi lain yang bisa dijadikan diversifikasi produk?
+1. How to increase Retention and Average Basket Size (ABS)?
+1. What are the performance and potential of the city?
+1. What are the potential and obstacles of the best-selling product?
+1. How to improve service in line with the increasing number of transactions?
+1. Is there any other potential that can be used as product diversification?
 
-**Note : Walaupun begitu analisa yang kami lakukan baru permukaan dan perlu dikaji lebih mendalam**
+*Note: The analysis we conducted is only surface-level and needs to be examined further*
 
-Kami menggunakan **Brazilian E-Commerce Public Dataset**
-- Sumber : [kaggle.com](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv)
-- Pembuat : Olist and André Sionek
-- Tahun : 2018
+We use **Brazilian E-Commerce Public Dataset**
+- Source : [kaggle.com](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=olist_products_dataset.csv)
+- Authors : Olist and André Sionek
+- Year : 2018
 
-**Olist E-Commerce** adalah pasar online Brazil yang menghubungkan pedagang (usaha kecil dan menengah) dengan pelanggan di seluruh Brazil. Pedagang dapat menggunakan Olist untuk menjual produk mereka secara online dan mengakses pangsa pasar yang lebih luas, layanan logistik, dan solusi pemrosesan pembayaran.
+**Olist E-Commerce** is a Brazilian online marketplace that connects merchants (small and medium-sized businesses) with customers throughout Brazil. Merchants can use Olist to sell their products online and access a wider market share, logistics services, and payment processing solutions.
 
-Kami akan membangun suatu model yang akan membantu perusahaan untuk dapat menyediakan 'tool' prediksi pembelian yang mana akan berguna untuk menentukan budget marketing. Forecasting untuk 4 bulan ke depan dilakukan dengan mencoba modeling menggunakan Fbprophet, ARIMA dan ElasticNet. Metric yang digunakan adalah MAPE dan perbandingan grafik antar modelnya sebagai penilaian.
-Kami putuskan menjadikan MAPE sebagai metric penilaian karena beberapa alasan berikut:
-- Grafik kita memiliki trend yang berbeda signifikan, jika menggunakan penilaian nominal error 10000 pada 2017 mungkin besar tapi di 2018 bisa jadi kecil, sedangkan dengan MAPE perbedaan persepsi seperti itu bisa dihindari
-- MAPE lebih mudah dipahami oleh tim marketing
+We will build a model that will help the company provide a purchase prediction tool, which will be useful for determining the marketing budget. Forecasting for the next 4 months will be done by trying modeling using Fbprophet, ARIMA, and Elastic Net. The metric used is MAPE, and the comparison of the graphs between the models will be used for evaluation.
+
+We decided to use MAPE as the evaluation metric for several reasons :
+- Our graph has significantly different trends, so using nominal error evaluation of 10000 in 2017 might be large but small in 2018, whereas with MAPE such perception differences can be avoided.
+- MAPE is easier to understand for the marketing team.
